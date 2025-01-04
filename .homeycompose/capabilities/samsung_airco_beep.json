@@ -1,0 +1,21 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Beep",
+    "da": "Bip",
+    "de": "Piepsen",
+    "es": "Pitido",
+    "fr": "Bip",
+    "it": "Beep",
+    "ko": "삐 소리",
+    "nl": "Beep",
+    "no": "Pip",
+    "pl": "Piknięcie",
+    "ru": "Пик",
+    "sv": "Pip"
+  },
+  "getable": true,
+  "setable": true,
+  "uiComponent": "toggle",
+  "uiQuickAction": true
+}

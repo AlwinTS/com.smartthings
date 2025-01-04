@@ -1,0 +1,282 @@
+{
+  "$extends": "apikey",
+  "name": {
+    "en": "Samsung Air Conditioner",
+    "da": "Samsung Klimaanlæg",
+    "de": "Samsung Klimaanlage",
+    "es": "Samsung Equipo de aire acondicionado",
+    "fr": "Samsung Climatiseur",
+    "it": "Samsung Climatizzatore",
+    "ko": "Samsung 에어컨",
+    "nl": "Samsung Airconditioner",
+    "no": "Samsung Klimaanlegg",
+    "pl": "Samsung Klimatyzacja",
+    "ru": "Samsung Кондиционер",
+    "sv": "Samsung Luftkonditionerare"
+  },
+  "class": "airconditioning",
+  "minCompatibility": "12.0.0",
+  "capabilities": [
+    "onoff",
+    "samsung_airco_light",
+    "samsung_airco_beep",
+    "target_temperature",
+    "measure_temperature",
+    "measure_humidity",
+    "fan_mode",
+    "swing_mode",
+    "thermostat_mode"
+  ],
+  "capabilitiesOptions": {
+    "swing_mode": {
+      "values": [
+        {
+          "id": "fixed",
+          "title": {
+            "en": "Fixed",
+            "da": "Fast",
+            "de": "Fest",
+            "es": "Fijo",
+            "fr": "Fixé",
+            "it": "Fisso",
+            "ko": "고정",
+            "nl": "Vast",
+            "no": "Fast",
+            "pl": "Stały",
+            "ru": "Фиксированный",
+            "sv": "Fast"
+          }
+        },
+        {
+          "id": "horizontal",
+          "title": {
+            "en": "Horizontal",
+            "da": "Horisontal",
+            "de": "Horizontal",
+            "es": "Horizontal",
+            "fr": "Horizontal",
+            "it": "Orizzontale",
+            "ko": "수평",
+            "nl": "Horizontaal",
+            "no": "Horisontal",
+            "pl": "Poziomy",
+            "ru": "Горизонтальный",
+            "sv": "Horisontell"
+          }
+        },
+        {
+          "id": "vertical",
+          "title": {
+            "en": "Vertical",
+            "da": "Vertikal",
+            "de": "Vertikal",
+            "es": "Vertical",
+            "fr": "Vertical",
+            "it": "Verticale",
+            "ko": "수직",
+            "nl": "Verticaal",
+            "no": "Vertikal",
+            "pl": "Pionowy",
+            "ru": "Вертикальный",
+            "sv": "Vertikal"
+          }
+        },
+        {
+          "id": "all",
+          "title": {
+            "en": "All",
+            "da": "Alle",
+            "de": "Alle",
+            "es": "Todos",
+            "fr": "Tous",
+            "it": "Tutti",
+            "ko": "모두",
+            "nl": "Alle",
+            "no": "Alle",
+            "pl": "Wszystkie",
+            "ru": "Все",
+            "sv": "Alla"
+          }
+        }
+      ]
+    },
+    "thermostat_mode": {
+      "values": [
+        {
+          "id": "auto",
+          "title": {
+            "en": "Auto",
+            "da": "Auto",
+            "de": "Automatisch",
+            "es": "Automático",
+            "fr": "Automatique",
+            "it": "Auto",
+            "ko": "자동",
+            "nl": "Auto",
+            "no": "Auto",
+            "pl": "Automatyczny",
+            "ru": "Авто",
+            "sv": "Automatisk"
+          }
+        },
+        {
+          "id": "cool",
+          "title": {
+            "en": "Cool",
+            "da": "Køle",
+            "de": "Kühlen",
+            "es": "Refrigerar",
+            "fr": "Refroidir",
+            "it": "Raffreddare",
+            "ko": "냉방",
+            "nl": "Koelen",
+            "no": "Kjøle",
+            "pl": "Chłodzić",
+            "ru": "Охлаждение",
+            "sv": "Kyla"
+          }
+        },
+        {
+          "id": "dry",
+          "title": {
+            "en": "Dry",
+            "da": "Tørre",
+            "de": "Trocknen",
+            "es": "Secar",
+            "fr": "Sécher",
+            "it": "Asciugare",
+            "ko": "건조",
+            "nl": "Drogen",
+            "no": "Tørke",
+            "pl": "Osuszać",
+            "ru": "Сушка",
+            "sv": "Torka"
+          }
+        },
+        {
+          "id": "wind",
+          "title": {
+            "en": "Wind",
+            "da": "Vind",
+            "de": "Wind",
+            "es": "Ventilar",
+            "fr": "Vent",
+            "it": "Ventilazione",
+            "ko": "바람",
+            "nl": "Ventilator",
+            "no": "Vind",
+            "pl": "Wiatr",
+            "ru": "Ветер",
+            "sv": "Vind"
+          }
+        },
+        {
+          "id": "heat",
+          "title": {
+            "en": "Heat",
+            "da": "Varme",
+            "de": "Heizen",
+            "es": "Calor",
+            "fr": "Chauffer",
+            "it": "Riscaldare",
+            "ko": "난방",
+            "nl": "Verwarmen",
+            "no": "Varm",
+            "pl": "Ogrzewanie",
+            "ru": "Нагрев",
+            "sv": "Värme"
+          }
+        }
+      ]
+    },
+    "fan_mode": {
+      "values": [
+        {
+          "id": "auto",
+          "title": {
+            "en": "Auto",
+            "da": "Auto",
+            "de": "Automatisch",
+            "es": "Automático",
+            "fr": "Automatique",
+            "it": "Auto",
+            "ko": "자동",
+            "nl": "Auto",
+            "no": "Auto",
+            "pl": "Automatyczny",
+            "ru": "Авто",
+            "sv": "Automatisk"
+          }
+        },
+        {
+          "id": "low",
+          "title": {
+            "en": "Low",
+            "da": "Lav",
+            "de": "Niedrig",
+            "es": "Bajo",
+            "fr": "Bas",
+            "it": "Basso",
+            "ko": "낮음",
+            "nl": "Laag",
+            "no": "Lav",
+            "pl": "Niski",
+            "ru": "Низкий",
+            "sv": "Låg"
+          }
+        },
+        {
+          "id": "medium",
+          "title": {
+            "en": "Medium",
+            "da": "Middel",
+            "de": "Mittel",
+            "es": "Medio",
+            "fr": "Moyen",
+            "it": "Medio",
+            "ko": "중간",
+            "nl": "Middel",
+            "no": "Middels",
+            "pl": "Średni",
+            "ru": "Средний",
+            "sv": "Medel"
+          }
+        },
+        {
+          "id": "high",
+          "title": {
+            "en": "High",
+            "da": "Høj",
+            "de": "Hoch",
+            "es": "Alto",
+            "fr": "Élevé",
+            "it": "Alto",
+            "ko": "높음",
+            "nl": "Hoog",
+            "no": "Høy",
+            "pl": "Wysoki",
+            "ru": "Высокий",
+            "sv": "Hög"
+          }
+        },
+        {
+          "id": "turbo",
+          "title": {
+            "en": "Turbo",
+            "da": "Turbo",
+            "de": "Turbo",
+            "es": "Turbo",
+            "fr": "Turbo",
+            "it": "Turbo",
+            "ko": "터보",
+            "nl": "Turbo",
+            "no": "Turbo",
+            "pl": "Turbo",
+            "ru": "Турбо",
+            "sv": "Turbo"
+          }
+        }
+      ]
+    }
+  }
+}
